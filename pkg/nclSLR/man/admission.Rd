@@ -30,6 +30,7 @@ data(admission)
 head(admission)
 }
 \references{
-\insertRef{JW08}{MAS3907}
+Johnson, R.A and Wichern, D.W. (2008) \emph{Applied Multivariate Statistical}
+\emph{Analysis, Sixth Edition.} Pearson.
 }
 \keyword{datasets}

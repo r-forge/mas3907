@@ -1,0 +1,36 @@
+#' Violent crime rates by US state with region.
+#'
+#' This data set contains statistics, in arrests per 100,000 residents for 
+#' assault, murder, and rape in each of the 50 US states in 1973. Also given 
+#' is the percent of the population living in urban areas and the Census 
+#' Bureau-designated region
+#'
+#' @name USArrests
+#' @docType data
+#' @usage data(USArrests, package="nclSLR")
+#' @return A data frame with 50 observations on 5 variables.:
+#' \describe{
+#' \item{Murder}{Murder arrests (per 100,000); a numeric vector.}
+#' \item{Assault}{Assault arrests (per 100,000); a numeric vector.}
+#' \item{UrbanPop}{Percent urban population; a numeric vector.}
+#' \item{Rape}{Rape arrests (per 100,000); a numeric vector.}
+#' \item{Region}{A factor with four levels indicating the Census 
+#' Bureau-designated region.}}
+#' @note 
+#' USArrests contains the data as in McNeil's monograph. For the UrbanPop 
+#' percentages, a review of the table (No. 21) in the Statistical Abstracts 1975 
+#' reveals a transcription error for Maryland (and that McNeil used the same 
+#' ``round to even'' rule that R's round() uses), as found by Daniel S Coven 
+#' (Arizona).
+#' @source World Almanac and Book of facts 1975. (Crime rates).
+#' 
+#' Statistical Abstracts of the United States 1975, p.20, (Urban rates), 
+#' possibly available as
+#' \url{https://books.google.ch/books?id=zl9qAAAAMAAJ&pg=PA20}.
+#' @references 
+#' McNeil, D. R. (1977) \emph{Interactive Data Analysis}. New York: Wiley.
+#' @keywords datasets
+#' @examples
+#' data(USArrests, package="nclSLR")
+#' head(USArrests)
+NULL

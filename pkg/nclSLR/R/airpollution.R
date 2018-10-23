@@ -1,0 +1,40 @@
+#' Air pollution data.
+#'
+#' A data comprising of observations from 80 US cities for the year 1960 on 
+#' 11 variables. These include a number of measures of air pollution, 
+#' specifically concentrations of sulphate and suspended particulate, 
+#' as well as a number of demographic variables.
+#'
+#' @name airpollution
+#' @docType data
+#' @usage data(airpollution)
+#' @return A data frame with 80 rows and 11 variables. The data frame contains
+#' the following columns:
+#' \describe{
+#' \item{SMIN}{Smallest biweekly sulphate reading in micrograms per cubic metre
+#' (x 10).}
+#' \item{SMEAN}{Arithmetic mean of biweekly sulphate reading in micrograms per 
+#' cubic metre (x 10).}
+#' \item{SMAX}{Largest biweekly sulphate reading in micrograms per cubic metre
+#' (x 10).}
+#' \item{PMIN}{Smallest biweekly suspended particulate reading in micrograms per 
+#' cubic metre (x 10).}
+#' \item{PMEAN}{Arithmetic mean of biweekly suspended particulate reading in 
+#' micrograms per cubic metre (x 10).}
+#' \item{PMAX}{Largest biweekly suspended particulate reading in micrograms per 
+#' cubic metre (x 10).}
+#' \item{PM2}{Population density per square mile (x 0.1).}
+#' \item{PERWH}{Percent of population who are white.}
+#' \item{NONPOOR}{Percent of families with income above the poverty level.}
+#' \item{GE65}{Percent of population who are at least 65 (x 10).}
+#' \item{LPOP}{Logarithm (base 10) of population (x 10).}}
+#' @source The complete data set is described in Gibbons \emph{et al.} (1987).
+#' @references
+#' D.I. Gibbons and G.C. McDonald and R.F. Gunst (1987), The complementary use of
+#' regression diagnostics and robust estimators. \emph{Naval Research Logistics},
+#' \bold{34}, 109--131.
+#' @keywords datasets
+#' @examples
+#' data(airpollution)
+#' head(airpollution)
+NULL

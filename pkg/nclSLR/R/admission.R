@@ -17,7 +17,8 @@
 #' admissions tutors (admit, borderline or do not admit).}}
 #' @source The data were taken from Johnson and Wichern (2008).
 #' @references
-#' \insertRef{JW08}{MAS3907}
+#' Johnson, R.A and Wichern, D.W. (2008) \emph{Applied Multivariate Statistical}
+#' \emph{Analysis, Sixth Edition.} Pearson.
 #' @keywords datasets
 #' @examples
 #' data(admission)
