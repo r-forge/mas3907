@@ -12,9 +12,6 @@ Description: Data for Statistical Learning modules at Durham University.
 VignetteBuilder: R.rsp
 License: GPL-3 | GPL-2
 Depends:
-    stats,
-    grDevices,
-    graphics
 Suggests:
     R.rsp
 LazyData: TRUE
