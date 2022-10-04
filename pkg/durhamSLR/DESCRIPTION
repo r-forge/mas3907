@@ -1,0 +1,21 @@
+Package: durhamSLR
+Type: Package
+Title: The durhamSLR package.
+Version: 0.1.0
+Date: 2022-10-04
+Authors@R: person("Sarah", "Heaps",
+    email="sarah.e.heaps@durham.ac.uk", role =
+    c("aut", "cre"))
+Maintainer: Sarah Heaps
+    <sarah.e.heaps@durham.ac.uk>
+Description: Data for Statistical Learning modules at Durham University.
+VignetteBuilder: R.rsp
+License: GPL-3 | GPL-2
+Depends:
+    stats,
+    grDevices,
+    graphics
+Suggests:
+    R.rsp
+LazyData: TRUE
+RoxygenNote: 6.1.0
